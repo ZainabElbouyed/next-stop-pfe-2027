@@ -1,0 +1,36 @@
+name: Next Stop CI
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  quality-check:
+    name: Repository Quality Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Validate README
+        run: |
+          if [ ! -s README.md ]; then
+            echo "README.md is missing or empty!"
+            exit 1
+          fi
+          echo "README validation passed!"
+
+      - name: Markdown lint
+        uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: README.md
+          config: .markdownlint.json
