@@ -1,26 +1,23 @@
+
 # 🚀 NEXT STOP: MY PFE 2027
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-OPEN-success?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/DOMAIN-CLOUD%20%26%20DEVOPS-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/START-JANUARY%202027-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/STATUS-OPEN-success?style=for-the-badge" alt="Status: Open"/>
+  <img src="https://img.shields.io/badge/DOMAIN-CLOUD%20%26%20DEVOPS-blue?style=for-the-badge" alt="Domain: Cloud and DevOps"/>
+  <img src="https://img.shields.io/badge/START-JANUARY%202027-purple?style=for-the-badge" alt="Availability: January 2027"/>
 </p>
 
 > Every great journey starts with a commit.
 
 ## 👩‍💻 About
 
-I'm Zineb, a third-year engineering student at **INPT**,
-specializing in Cloud & Distributed Systems.
+I'm Zineb, a third-year engineering student at **INPT**, specializing in Cloud & Distributed Systems.
 
-This repository represents the next chapter of my
-engineering journey: finding a PFE opportunity where
-I can turn technical knowledge into real-world impact.
+This repository represents the next chapter of my engineering journey: finding a PFE opportunity where I can turn technical knowledge into real-world impact.
 
 ## 🎯 Mission
 
-Find a 6-month Final Year Internship (PFE) starting
-January 2027 in:
+Find a 6-month Final Year Internship (PFE) starting January 2027 in:
 
 - Cloud Engineering
 - DevOps & Platform Engineering
@@ -48,9 +45,10 @@ January 2027 in:
 
 - [x] Create GitHub repository
 - [x] Open the PFE search issue
-- [ ] Build project documentation
-- [ ] Implement GitHub Actions CI
-- [ ] Add automated quality checks
+- [x] Build project documentation
+- [x] Implement GitHub Actions CI
+- [x] Configure automated Markdown quality checks
+- [ ] Achieve a successful CI pipeline
 - [ ] Publish project release v1.0.0
 
 ## 📌 Current Status
@@ -68,3 +66,4 @@ January 2027 in:
 <p align="center">
   <i>git checkout --future</i>
 </p>
+s
