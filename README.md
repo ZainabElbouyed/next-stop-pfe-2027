@@ -66,4 +66,3 @@ Find a 6-month Final Year Internship (PFE) starting January 2027 in:
 <p align="center">
   <i>git checkout --future</i>
 </p>
-s
